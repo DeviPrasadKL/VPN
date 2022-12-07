@@ -1,0 +1,207 @@
+/* Navigation bar  */
+.navbar {
+  display: block;
+  /* position:relative; */
+  margin: 2px 0px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar ul {
+  margin-left: 0%;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+.navbar ul li {
+  margin-left: 6.5%;
+}
+.sign {
+  display: flex;
+}
+#signin {
+  margin-top: 2%;
+  margin-left: 0%;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+#signup {
+  border: 2px solid red;
+  color: red;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-right: 5%;
+}
+
+/* Home section */
+.home {
+  display: block;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#home-content {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-size: 1.5rem;
+}
+#homeLogo img {
+  display: block;
+  margin-left: 38%;
+  height: 150px;
+  opacity: 0.4;
+}
+#home-content p {
+  padding: 13px 0px;
+  font-size: 0.6rem;
+  line-height: 30px;
+}
+#home-content button {
+  background-color: white;
+  border: none;
+  padding: 10px 30px;
+  border: 2px solid red;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: red;
+  margin-top: 30px;
+}
+
+/* User section */
+.user-section {
+  display: block;
+}
+
+/* Features */
+.features {
+  display: block;
+}
+#features-logo img {
+  height: 40%;
+  width: 90%;
+  margin-left: 0%;
+}
+#features-content {
+  margin-left: 5%;
+}
+#features-content h1 {
+  font-size: 2rem;
+  line-height: 40px;
+}
+#features-content p {
+  font-size: 0.8rem;
+  margin: 0px 0px;
+  line-height: 26px;
+}
+
+/* Choose-Plans */
+.choose-plan {
+  margin-top: 150px;
+  margin-bottom: 60px;
+  font-size: 0.8rem;
+}
+.choose-plan h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.choose-plan p {
+  font-size: 0.8rem;
+}
+.box {
+  height: 42rem;
+  width: 70%;
+  margin-left: 10%;
+}
+
+/* Plan boxes */
+.plan-section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin-bottom: 5%;
+}
+
+/* Global Section  */
+#global-content {
+  margin: 80px 0px;
+  line-height: 40px;
+}
+#global-content p {
+  margin: 18px 0px;
+  line-height: 28px;
+  font-size: 0.8rem;
+}
+#global-content h1 {
+  font-size: 2rem;
+}
+
+/* Mask Group */
+.mask-section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+/* Trusted section */
+#trusted-content h1 {
+  font-size: 2rem;
+  line-height: 58px;
+}
+#trusted-content p {
+  margin: 18px 0px;
+  line-height: 28px;
+  font-size: 0.8rem;
+}
+
+/* Emp Section */
+.emp-section {
+  display: block;
+  justify-content: space-evenly;
+}
+.empbox {
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+
+/* Arrow */
+.last {
+  margin-left: 22%;
+}
+
+/* subscribe-section */
+.subscribe-section {
+  display: block;
+}
+.subone {
+  margin-left: 2%;
+}
+.subone h1 {
+  font-size: 1.8rem;
+}
+.subtwo {
+  margin-left: 6%;
+}
+.subtwo button {
+  font-size: 0.9rem;
+  padding: 10px 20px;
+}
+
+/* About section */
+.about {
+  display: block;
+  margin-left: 2%;
+}
+.list {
+  margin-left: 5%;
+  display: flex;
+}
+.list ul {
+  margin-left: 8%;
+}
